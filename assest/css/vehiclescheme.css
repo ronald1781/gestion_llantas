@@ -1,0 +1,101 @@
+.tblScheme {   
+    border-collapse:separate;
+    margin: 0 auto;
+    border-spacing: 0;
+}
+
+.axle {
+   
+}
+
+.tblScheme tbody tr td {
+    vertical-align:top;
+ 
+}
+
+.tdPosVehicle {
+    text-align: center;
+}
+
+.separator {
+    border-right:3px solid rgb(128,128,128);
+    border-left:3px solid rgb(128,128,128);
+}
+
+.closeTop{
+    border-top:3px solid rgb(128,128,128);
+}
+
+.closeBottom{
+    border-bottom:3px solid rgb(128,128,128);    
+}
+
+.barraEje {
+    border-top: 5px solid rgb(128,128,128);
+    position:absolute;
+}
+
+.numberPosition {
+    font-weight:bold;
+    font-size: x-large;
+    position: absolute;
+    width: 100%;
+}
+
+.white {
+    color:white;
+}
+
+.black {
+    color:black;
+}
+
+.posVehicle {
+    border: 3px solid rgb(128, 128, 128);
+    border-radius: 30%;
+    width:60%;
+    margin: 0 auto;
+    position:relative;
+    background-color:white;
+}
+
+.posLeft{
+    float:left;
+}
+
+.posRight {
+    float:right;
+}
+
+.tire {
+    background: url("../../Recursos/Imagenes/llanta_textura.jpg") repeat scroll center center rgba(0, 0, 0, 0);
+    background-size:cover;
+    border-radius: 30%;
+    color: White;
+    font-weight: bold;
+    vertical-align:central;
+    height:100%;
+    width:100%;
+}
+
+.tireInfo {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.tireActions {
+    width: 60%;
+    margin: 0 auto;
+}
+
+/*Estilos para esquemas particulares*/
+
+/*Motos*/
+.schemeId_12 {
+
+}
+
+/*Motos 3 Llantas*/
+.schemeId_14 {
+    
+}
